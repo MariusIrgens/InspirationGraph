@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Inspiration Graph</title>
+  <style>
+    body { margin: 0; }
+  </style>
+</head>
+<body>
+
+<script type="importmap">
+			{
+				"imports": {
+					"three": "../lib/three/build/three.module.js"
+				}
+			}
+		</script>
+
+<!-- jsnetworkx was not available in module format -->
+<script src="../lib/jsnetworkx/jsnetworkx.js"></script>
+<script type="module">
+  'use strict';
+  import {start} from "./js/main.js";
+  start();
+</script>
+</body>
+</html>
